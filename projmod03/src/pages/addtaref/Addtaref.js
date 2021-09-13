@@ -16,7 +16,7 @@ const NovaTarefa = () => {
         <input type='time'></input>
         <label htmlFor='lembrete' className='add-form-group-label'>Adicionar um lembrente?</label>
         <input type='checkbox'></input>
-        <button type='submit'>Adicionar nova tarefa</button>
+        <button type='submit' className='button-form'>Adicionar nova tarefa</button>
     </form>
     </div>
     </section>)
