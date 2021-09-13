@@ -11,11 +11,13 @@ const NovaTarefa = () => {
         <label htmlFor='descricao' className='add-form-group-label'>Descrição da Tarefa</label>
         <textarea type='text' id='describe' name='describe' className='add-form-group-area'></textarea>
         <label htmlFor='data' className='add-form-group-label'>Data da Tarefa:</label>
-        <input type='date'></input>
+        <input type='date' className='input'></input>
         <label htmlFor='hora' className='add-form-group-label'>Horário</label>
-        <input type='time'></input>
+        <input type='time' className='input'></input>
+        <label htmlFor='cor' className='add-form-group-label'>Escolha um cor para o nível de importância do card</label>
+        <input type='color' className='input'></input>
         <label htmlFor='lembrete' className='add-form-group-label'>Adicionar um lembrente?</label>
-        <input type='checkbox'></input>
+        <input type='checkbox' ></input>
         <button type='submit' className='button-form'>Adicionar nova tarefa</button>
     </form>
     </div>
