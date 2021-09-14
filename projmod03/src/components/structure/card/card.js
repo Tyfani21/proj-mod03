@@ -5,7 +5,7 @@ const Card = () => {
     return(
         <div className='card'>
         <p className='card-text'>TESTE</p>
-        <span className='card-hora'>TESTE</span>
+        <span className='card-hora'>TESTSTESTE</span>
         </div>
     )
 }
