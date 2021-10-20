@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../components/structure/card/card";
+import DoList from "../../components/structure/do-list/do-list";
 import './home.scss'
 
 const Home = () =>{
@@ -8,12 +8,7 @@ const Home = () =>{
         <h1 className="content-title">TO-DOLIST</h1>
         <div className="content-list">
           <h1>Projeto de TO-DOLIST</h1>
-         <div className='cards'>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          </div>
+          <DoList/>
         </div>
       </section>
     )
